@@ -1,13 +1,21 @@
-# Blockchain in JavaScript
+# 🚀 Blockchain in JavaScript
 
-This project implements a basic blockchain with:
+This project is a basic implementation of a blockchain built using Node.js.
 
-- Block structure
-- Hashing
-- Mining
+## 🔹 Features
+- Block creation
+- Cryptographic hashing
+- Proof of Work (mining)
 - Chain validation
+- Replace chain logic
 
-## Run
+## 📂 Project Structure
+- `block.js` → Block structure
+- `blockchain.js` → Chain logic
+- `crypto-hash.js` → Hashing function
+- `pubsub.js` → Communication layer
 
+## ▶️ How to Run
+```bash
 npm install
 node index.js
